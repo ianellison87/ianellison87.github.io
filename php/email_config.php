@@ -1,7 +1,7 @@
 <?php
 	
 	//your email here
-	$to_email = 'mail@example.com';
+	$to_email = 'ianellison87@yahoo.com';
 	
 	//subject of email you will receive
 	$subject = 'Contact from your website';	
