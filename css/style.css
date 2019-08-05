@@ -322,6 +322,7 @@ body {
     float: left;
     padding: 0;
     overflow: hidden;
+    height: 100vw;
     position: relative;
 }
 
@@ -420,7 +421,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100vw%;
     -webkit-transition: -webkit-transform 1s linear;
     -moz-transition: -moz-transform 1s linear;
     -ms-transition: -ms-transform 1s linear;
