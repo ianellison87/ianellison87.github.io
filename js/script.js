@@ -62,20 +62,22 @@ $(document).ready(function () {
 
         var introWidth = $('.introduction').width(),
             introHeight = $('.introduction').height(),
+            windowWidth = $(window).width(),
+            windowHeight = $(window).height(),
             bgImage = $('.introduction').find('img');
 
-        if (introWidth > introHeight) {
+        if (windowWidth > windowHeight) {
 
             bgImage.css({
-                width: '100%',
-                height: 'auto'
+                width: "50vw",
+                height: '100vh'
             });
 
         } else {
 
             bgImage.css({
-                width: 'auto',
-                height: '100%'
+                width: "100vw",
+                height: '50vh'
             });
 
         }
@@ -238,7 +240,7 @@ $(document).ready(function () {
         
         $.ajax({
             type: "POST",
-            url: "php/contact.php",
+            url: "php/ianellison87@yahoo.com",
             data: $('#contactForm').serialize(),
             success: function (msg) {
                 if (msg == 'SEND') {
@@ -258,16 +260,16 @@ $(document).ready(function () {
          Google Map ( for contact page )
         -------------------------------  */
 
-    $('#google-map').gMap({
-        latitude: 31.562130,
-        longitude: 74.319460,
+    $('#google-map').gMap({   
+        latitude: 37.796598,
+        longitude: -122.398177,
         maptype: 'TERRAIN',
         scrollwheel: false,
         zoom: 14,
         markers: [
             {
-                latitude: 31.562130,
-                longitude: 74.319460,
+            latitude: 37.796598,
+            longitude: -122.398177,
                 html: "I am Here!",
                 icon: {
                     image: "images/icon/map_marker.png",
