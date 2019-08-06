@@ -260,6 +260,7 @@ $(document).ready(function () {
          Google Map ( for contact page )
         -------------------------------  */
 
+<<<<<<< HEAD
     $('#google-map').gMap({   
         latitude: 37.796598,
         longitude: -122.398177,
@@ -287,5 +288,34 @@ $(document).ready(function () {
             overviewMapControl: false
         }
     });
+=======
+//     $('#google-map').gMap({
+//         latitude: 31.562130,
+//         longitude: 74.319460,
+//         maptype: 'TERRAIN',
+//         scrollwheel: false,
+//         zoom: 14,
+//         markers: [
+//             {
+//                 latitude: 31.562130,
+//                 longitude: 74.319460,
+//                 html: "I am Here!",
+//                 icon: {
+//                     image: "images/icon/map_marker.png",
+//                     iconsize: [46, 46],
+//                     iconanchor: [12, 46]
+//                 }
+//             }
+//         ],
+//         controls: {
+//             panControl: false,
+//             zoomControl: true,
+//             mapTypeControl: false,
+//             scaleControl: false,
+//             streetViewControl: false,
+//             overviewMapControl: false
+//         }
+//     });
+>>>>>>> f8856995cad61866120aaf4cb16a4af06fe182f8
 
 });
