@@ -633,6 +633,12 @@ body {
     color: #fff;
 }
 
+.skills {
+    height: initial;
+    width: inherit;
+    padding: 10px;
+}
+
 .services {
     text-align: center;
     padding: 15px;
