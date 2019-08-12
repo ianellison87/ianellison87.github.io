@@ -240,7 +240,7 @@ $(document).ready(function () {
         
         $.ajax({
             type: "POST",
-            url: "php/ianellison87@yahoo.com",
+            url: "ianellison87@yahoo.com",
             data: $('#contactForm').serialize(),
             success: function (msg) {
                 if (msg == 'SEND') {
